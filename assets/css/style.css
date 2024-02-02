@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.icono {
+  color: white;
+}
+body {
+  text-align: center;
+  color: #000f08;
+  font-family: "Open Sans";
+}
+
+/* Navbar / Barra de Navegacion */
+
+nav {
+  background-color: #000f08;
+  color: white;
+  text-align: left;
+  padding: 20px 120px;
+  font-size: 25px;
+}
+
+nav li {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 60px;
+}
+
+nav li a {
+  color: white;
+  text-decoration: none;
+}
+
+#imagen_menu {
+  width: 60px;
+  height: 40px;
+}
+
+/* section Banner  */
+
+header {
+  text-align: right;
+  background-image: url("/assets/img/bg-hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding: 100px;
+  text-shadow: 0px 3px 6px #00000080;
+}
+
+header h1 {
+  font-size: 60px;
+  font-weight: 900;
+}
+
+header h2 {
+  font-size: 40px;
+  font-weight: 400;
+}
+
+/* section primera */
+
+#primera {
+  padding: 150px;
+}
+
+#primera h2 {
+  font-size: 45px;
+  margin: 40px 0px 20px 0px;
+}
+
+#primera p {
+  font-size: 25px;
+}
+
+/* section segunda */
+
+.speaker {
+  background: #a4452c;
+  color: white;
+  
+  padding: 5% 0;
+}
+.centrado {
+  width: 90%;
+  margin: 0 auto;
+  padding: 0% auto;
+}
+
+.imagen-speaker , .texto-speaker{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.imagen-speaker{
+width: 40%;
+margin-right: 30px;
+margin-bottom: 0;
+padding: 0 0;
+height: 100%;
+text-align: right;
+
+}
+
+.texto-speaker{
+  width: 50%;
+  text-align: left;
+}
+/* section tercera */
+
+#eventos {
+  margin: 5% 0 7% 0;
+}
+
+.evento {
+  width: 33%;
+  display: inline-block;
+
+}
+
+.espaciado{
+  margin: 0 10%;
+}
+
+.evento img{
+  width: 100%;
+}
+
+.evento h3 {
+  margin: 10% 0;
+  font-weight: 800;
+  font-size: 2em;
+}
+/* section cuarta */
+
+footer {
+  background-color: #000f08;
+  color: white;
+  padding: 120px 100px 100px 100px;
+  font-size: 25px;
+}
+
+footer a {
+  color: white;
+  margin: 0px 20px;
+  text-decoration: none;
+}
+
+footer p {
+  margin-top: 40px;
+}
+
+/* PAGINA SVD */
+
+.cuerpo {
+width: 50%;
+margin: 10% auto;
+}
+
+.cuerpo img {
+  width: 100%;
+  margin-bottom: 5%;
+}
+
+.cuerpo p {
+  text-align: left;
+  line-height: 2em;
+  font-size: 1.4em;
+  margin-bottom: 2%;
+}   
+
+.cuepo h2 {
+  margin:8% 0; 
+  font-size: 2em;
+  font-weight: 700;
+}
